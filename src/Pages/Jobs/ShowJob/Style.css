@@ -1,0 +1,157 @@
+/* .flex {
+    display:flex;
+    flex-wrap:wrap;
+  }
+  
+  .job-list-container {
+    background-color:#fff;
+    border-radius:20px;
+    padding:50px;
+    border:1px solid #ccc;
+  }
+  
+  .job-title {
+    font-family:Helvetica Now Display, Sans-Serif;
+    font-weight:500;
+    font-size:24px;
+    line-height:35.28px;
+  }
+  
+  .price {
+    font-family:Helvetica Now Display, Sans-Serif;
+    font-weight:500;
+    font-size:24px;
+    line-height:35.28px;
+    color:#27A654;
+    float:right;
+  }
+  
+  .job {
+    padding:40px 0;
+  }
+  
+  .job-info {
+    width:50%;
+    font-family:Robot, Sans-Serif;
+    font-weight:300;
+    font-size:16px;
+    line-height:18.75px;
+    padding:10px 0 20px 0;
+    border:none;
+  }
+  
+  .job-info-icon{
+    width:35px;
+    color:#D8D8D8;
+    margin-right:20px;
+    text-align:center;
+  }
+  
+  .price-type {
+    font-family:Helvetica Now Display, Sans-Serif;
+    font-weight:500;
+    font-size:16px;
+    background-color:#FFD200;
+    border-radius:50px;
+    padding:10px 25px;
+    color:#fff;
+    float:right;
+  }
+  
+  /* use badge-pill class instead of category? *//*
+  .category{
+    font-family:Helvetica Now Display, Sans-Serif;
+    font-weight:300;
+    font-size:16px;
+    line-height:23.52px;
+    color:#7C7C7C;
+    background-color:#F9F9F9;
+    border:1px solid #D8D8D8;
+    border-radius:50px;
+    padding:5px 20px;
+    margin:0 15px 15px 0;
+  }
+  
+  .category:last-child{
+    background-color:#27A654;
+    color:#fff;
+    border:1px solid #27A654;
+  } */
+
+
+  body{
+	font-family: arial;
+    	background: #49e4fa;
+}
+.logo{
+	border: 1px solid #f6f6f6;
+}
+
+.logo img{
+	width: 60px;
+	height: 60px;
+}
+.card{
+	display: block;
+	padding: 3vh 2vh 7vh 5vh;
+	border: none;
+	border-radius: 15px;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	max-width: 500px;
+}
+.header{
+	margin-bottom: 5vh;
+	margin-right: 2vh;
+	float: right;
+	margin-left: auto;
+}
+
+.far{
+	color: rgba(15, 198, 239, 0.97)!important;
+	font-size: 16px!important;
+}
+p.heading{
+	font-weight: bold;
+	font-size: 25px;
+}
+p.text-muted{
+	font-size: 17px;
+	font-weight: bold;
+	color: #a1a7ae!important;
+}
+.btn-sm{
+	border-radius: 8px;
+}
+.fas.fa-users{
+	color: rgba(15, 198, 239, 0.97)!important;
+}
+.mutual span{
+	font-size: 14px;
+	color: #adb5bd;
+	font-weight: bold;
+}
+.btn-primary.btn-lg{
+    border-radius: 30px;
+    width: 90%;
+    border: none;
+    background: #8c02e3;
+}
+.btn-dark.btn-lg{
+    border-radius: 30px;
+    width: 90%;
+    border: none;
+    background: #dee2e6;
+}
+.btn-dark span{
+	font-size: 14px;
+	text-align: center;
+	color: #0000008c;
+	font-weight: bold;
+}
+.btn-primary span{
+	font-size: 14px;
+	text-align: center;
+	color: #fff;
+	font-weight: bold;
+}
