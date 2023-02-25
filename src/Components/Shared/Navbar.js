@@ -19,7 +19,7 @@ function Navbar() {
               </li>
             </Link>
 
-            <Link to={"/home"} className="nav-item">
+            <Link to={"/comunity"} className="nav-item">
               <li className=" nav-link text-center">
                 <i className="fa-solid fa-users"></i>
                 <p className="d-none d-md-block m-0">My comunity</p>
