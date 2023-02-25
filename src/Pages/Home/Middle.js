@@ -6,9 +6,12 @@ import PostCard from "./PostCard";
 export const Middle = () => {
   const [url, setUrl] = useState("https://dummyjson.com/posts");
   const [post, setPost] = React.useState([]);
+
   useEffect(() => {
     axios
-      .get(url)
+      .get(url, {
+        params: {},
+      })
       .then((data) => {
         setPost(data.data.posts);
         // console.log(post);

@@ -1,21 +1,33 @@
-import React from "react";
-
+import React, { useState } from "react";
+import "../../App.css";
 const AddPost = () => {
+  // managing the new post into an object
+  const [newPost, setNewPost] = useState({
+    title: "",
+    body: "",
+    userEmail: "Michaelrezq9@gmail.com",
+  });
+  // set values of the post body when the user input his data
+  const handleText = (e) => {
+    setNewPost({
+      ...newPost,
+      body: e.target.value,
+    });
+  };
+  const handleAdd = () => {
+    console.log(newPost);
+  };
   return (
     <div>
       {/* create post */}
       <div>
-        {/* Button trigger modal */}
-        <button type="button" className="btn btn-primary">
-          Launch demo modal
-        </button>
         {/* Modal */}
         <div className="modal fade" id="exampleModal" tabIndex={-1}>
           <div className="modal-dialog">
             <div className="modal-content">
               <div className="modal-header">
                 <h1 className="modal-title fs-5" id="exampleModalLabel">
-                  Modal title
+                  Add Post
                 </h1>
                 <button
                   type="button"
@@ -24,17 +36,43 @@ const AddPost = () => {
                   aria-label="Close"
                 />
               </div>
-              <div className="modal-body">...</div>
+              <div className="modal-body">
+                <input
+                  type={"text"}
+                  className={"w-100 border-0 "}
+                  placeholder={"What is in your mind ?"}
+                  value={newPost.body}
+                  name={"postbody"}
+                  onChange={handleText}
+                />
+                <div className="buttons d-flex justify-content-between mt-2">
+                  <button type="button" className="btn">
+                    <i className="fa-regular fa-image text-info" />
+                    <span className="ms-2">Photo</span>
+                  </button>
+                  <button type="button" className="btn">
+                    <i className="fa-solid fa-video text-warning-emphasis" />
+                    <span className="ms-2">Video</span>
+                  </button>
+                  <button type="button" className="btn">
+                    <i className="fa-solid fa-calendar-days text-body-tertiary" />
+                    <span className="ms-2">Event</span>
+                  </button>
+                  <button type="button" className="btn">
+                    <i className="fa-solid fa-newspaper text-danger-emphasis" />
+                    <span className="ms-2">Write article</span>
+                  </button>
+                </div>
+              </div>
               <div className="modal-footer">
                 <button
                   type="button"
-                  className="btn btn-secondary"
+                  className="btn btn-primary "
                   data-bs-dismiss="modal"
+                  onClick={handleAdd}
+                  disabled={newPost.body ? false : true}
                 >
-                  Close
-                </button>
-                <button type="button" className="btn btn-primary">
-                  Save changes
+                  Post
                 </button>
               </div>
             </div>
@@ -56,6 +94,7 @@ const AddPost = () => {
             data-bs-target="#exampleModal"
           />
         </div>
+        {/* tail */}
         <div className="buttons d-flex justify-content-between mt-2">
           <button type="button" className="btn">
             <i className="fa-regular fa-image text-info" />
