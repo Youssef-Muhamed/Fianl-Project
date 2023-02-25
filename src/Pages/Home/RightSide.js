@@ -18,7 +18,7 @@ export const RightSide = () => {
           <div className="d-flex gap-3 mt-3">
             <i className="fa-solid fa-circle-user fs-1 text-primary" />
             <div>
-              <h5 className="text-secondary">linkedIn User</h5>
+              <h5 className="text-secondary"> User</h5>
               <p className="text-light-emphasis">software engineer</p>
               <button
                 type="button"
@@ -31,7 +31,7 @@ export const RightSide = () => {
           <div className="d-flex gap-3 mt-3">
             <i className="fa-solid fa-circle-user fs-1 text-primary" />
             <div>
-              <h5 className="text-secondary">linkedIn User</h5>
+              <h5 className="text-secondary"> User</h5>
               <p className="text-light-emphasis">software engineer</p>
               <button
                 type="button"
@@ -44,7 +44,7 @@ export const RightSide = () => {
           <div className="d-flex gap-3 mt-3">
             <i className="fa-solid fa-circle-user fs-1 text-primary" />
             <div>
-              <h5 className="text-secondary">linkedIn User</h5>
+              <h5 className="text-secondary"> User</h5>
               <p className="text-light-emphasis">software engineer</p>
               <button
                 type="button"
@@ -148,18 +148,15 @@ export const RightSide = () => {
           </div>
           <div className="text-center">
             <button type="button" className="btn btn-light text-body-tertiary">
-              Get the linkedin app
-            </button>
-            <button type="button" className="btn btn-light text-body-tertiary">
               More
             </button>
           </div>
           <div>
             <p className="text-center">
-              <span className="text-primary">
-                linkedin <i className="fa-brands fa-linkedin" />
+              <span className="text-success">
+                Virus <i className="fa-solid fa-virus " />
               </span>
-              LinkedIn Corporation
+              Virus Corporation
               <i className="fa-regular fa-copyright" /> 2023
             </p>
           </div>

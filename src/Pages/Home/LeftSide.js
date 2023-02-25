@@ -11,7 +11,7 @@ export const LeftSide = () => {
           <div className="text-center nmargin">
             <i className="fa-solid fa-circle-user fs-2 text-primary-emphasis" />
           </div>
-          <h3 className="text-center">linkedIn user</h3>
+          <h3 className="text-center"> user</h3>
           <p className="text-center text-body-tertiary mt-n1">
             software engineer
           </p>
@@ -42,10 +42,7 @@ export const LeftSide = () => {
           >
             Access exclusive tools &amp; insights
           </button>
-          <button type="button" className="btn btn-light">
-            <i className="fa-solid fa-square text-warning me-2" /> try Premium
-            for free
-          </button>
+
           <hr />
           <button type="button" className="btn btn-light">
             <i className="fa-brands fa-square-xing text-body-tertiary" /> my
