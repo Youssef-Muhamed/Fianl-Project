@@ -1,5 +1,5 @@
 import React from 'react'
-import { Outlet } from 'react-router-dom'
+import { Link, Outlet } from 'react-router-dom'
 import './Style.css'
 function ListJobs() {
   return (
@@ -22,7 +22,7 @@ function ListJobs() {
           <div className="details">
             <div className="title d-flex flex-row justify-content-between">
               <div className="titles">
-                <a href="single.html"><h4>Creative Art Designer</h4></a>
+                <Link to="/jobs/1"><h4>Creative Art Designer</h4></Link>
                 <h6>Premium Labels Limited</h6>					
               </div>
               <ul className="btns">

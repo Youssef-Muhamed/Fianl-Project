@@ -6,6 +6,8 @@ body {
     font-weight: 300;
     line-height: 1.625em;
     position: relative;
+    background: #fdfdfd;
+
   }
   
   ol, ul {
@@ -163,7 +165,7 @@ body {
   
   .post-list .single-post {
     padding: 30px;
-    background-color: #f9f9ff;
+    background-color: #fff;
     margin-bottom: 30px;
     border-radius: 8px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
@@ -358,7 +360,7 @@ body {
     }
   }
   .sidebar .single-slidebar {
-    background-color: #f9f9ff;
+    background-color: #fff;
     padding: 30px 20px;
     margin-bottom: 30px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
@@ -371,6 +373,7 @@ body {
   .sidebar .single-slidebar .cat-list li {
     padding: 0px 10px;
     background-color: #fff;
+    border: 1px solid #ccc;
     -webkit-transition: all 0.3s ease 0s;
     -moz-transition: all 0.3s ease 0s;
     -o-transition: all 0.3s ease 0s;
