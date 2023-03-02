@@ -4,39 +4,39 @@ import './Style.css'
 function ShowJob() {
   return (
     <>
-{/* <div className="container-fluid col-md-6 job-list-container">
+<div className="container-fluid col-md-6 job-list-container">
   <div className="row">
     <div className="col-md-12">
       <div className="row">
         <div className="col-md-10">
-          <h3 className="job-title text-capitalize"> */}
+          <h3 className="job-title text-capitalize"> 
             {/*[wpv-post-title]*/}
-            {/* Laravel sr. back end developer */}
-          {/* </h3>
+            Laravel sr. back end developer
+           </h3>
         </div>
         <div className="col-md-2">
           <span className="price">$1500</span>
         </div>
       </div>
       <div className="row job">
-        <div className="col-md-8 flex"> */}
+        <div className="col-md-8 flex"> 
           {/*using fontawesome icons*/}
-          {/* <span className="job-info"><i className="fa fa-briefcase fa-lg job-info-icon" aria-hidden="true" />Employer</span> 
+           <span className="job-info"><i className="fa fa-briefcase fa-lg job-info-icon" aria-hidden="true" />Employer</span>  
           <span className="job-info"><i className="fa fa-map-marker fa-lg job-info-icon" aria-hidden="true" />Location</span> 
           <span className="job-info"><i className="fa fa-wifi fa-lg job-info-icon" aria-hidden="true" />Job Type</span> 
           <span className="job-info"><i className="fa fa-clock fa-lg job-info-icon" aria-hidden="true" />22H ago</span> 
         </div>
         <div className="col-md-4">
-          <span className="badge badge-default price-type"> */}
+          <span className="badge badge-default price-type"> 
             {/*[wpv-post-taxonomy type="job_listing_type"]*/}
-            {/* Fixed Price
+             Fixed Price
           </span>
         </div>
       </div>
       <div className="row">
-        <div className="col-md-12 flex"> */}
+        <div className="col-md-12 flex"> 
           {/*[wpv-post-taxonomy type="job_listing_category"]*/}
-          {/* <span className="category">React</span>
+          <span className="category">React</span>
           <span className="category">Programming</span>
           <span className="category">Wordpress Development</span>
           <span className="category">Angular</span>
@@ -49,9 +49,24 @@ function ShowJob() {
       </div>
     </div>
   </div>
-</div> */}
+</div> 
 
-<div className="container">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{/* <div className="container">
   <div className="card mx-auto">
     <div className="row">
       <div className="logo ml-3 mb-3"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTxDRpxI5gXgaVmnO-VgcVUNOkca91jIpS75Flbzkz5W_5g5_V5&usqp=CAU" /></div>
@@ -76,7 +91,7 @@ function ShowJob() {
       </div>
     </div>
   </div>
-</div>
+</div> */}
 <Outlet />  
     </>
   )

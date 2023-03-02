@@ -1,4 +1,4 @@
-/* .flex {
+.flex {
     display:flex;
     flex-wrap:wrap;
   }
@@ -76,13 +76,13 @@
     background-color:#27A654;
     color:#fff;
     border:1px solid #27A654;
-  } */
+  }
 
 
-  body{
+   body{
 	font-family: arial;
-    	/* background: #49e4fa; */
 }
+/*
 .logo{
 	border: 1px solid #f6f6f6;
 }
@@ -154,4 +154,4 @@ p.text-muted{
 	text-align: center;
 	color: #fff;
 	font-weight: bold;
-}
+} */
