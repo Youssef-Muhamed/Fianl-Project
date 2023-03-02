@@ -33,7 +33,7 @@ const PostCard = (props) => {
           </div>
           {/* remove post */}
           <div style={{ cursor: "pointer" }} onClick={handleDeletePost}>
-            <i class="fa-solid fa-xmark"></i>
+            <i className="fa-solid fa-xmark"></i>
           </div>
         </div>
         <div className="postBodyContent">
