@@ -3,9 +3,11 @@ import "../../App.css";
 const AddPost = () => {
   // managing the new post into an object
   const [newPost, setNewPost] = useState({
-    title: "",
-    body: "",
-    userEmail: "Michaelrezq9@gmail.com",
+    body: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    name: "Elmira Anersen",
+    title: "DevOps Engineer",
+    comments: "dd",
+    sharenumberr: "SKU_980",
   });
   // set values of the post body when the user input his data
   const handleText = (e) => {
