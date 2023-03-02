@@ -4,40 +4,40 @@ import { Link } from "react-router-dom";
 function Navbar() {
   return (
     <div className="">
-      <nav className="navbar bg-white border-bottom py-3 ">
+      <nav className="navbar  border-bottom py-3  ">
         <div className="container justify-content-between">
           {/* nav logo */}
-          <Link to={"/home"} className="align-self-center me-2">
-            <i className="fa-solid fa-virus text-success fs-1" />
+          <Link to={"/home"} className="align-self-center me-2 text-secondary">
+            Clarity
           </Link>
           {/* nav links */}
           <ul className="d-flex align-items-center text-body-secondary justify-content-center list-unstyled m-0 gap-3">
-            <Link to={"/home"} className="nav-item">
+            <Link to={"/home"} className="nav-item text-secondary">
               <li className="nav-link text-center">
                 <i className="fa-solid fa-house "></i>
                 <p className="d-none d-md-block m-0">home</p>
               </li>
             </Link>
 
-            <Link to={"/comunity"} className="nav-item">
+            <Link to={"/comunity"} className="nav-item text-secondary">
               <li className=" nav-link text-center">
                 <i className="fa-solid fa-users"></i>
                 <p className="d-none d-md-block m-0">My comunity</p>
               </li>
             </Link>
-            <Link to={"/jobs"} className="nav-item">
+            <Link to={"/jobs"} className="nav-item text-secondary">
               <li className="nav-link text-center">
                 <i className="fa-solid fa-briefcase" />
                 <p className="d-none d-md-block m-0">jobs</p>
               </li>
             </Link>
-            <Link to={"/problems"} className="nav-item">
+            <Link to={"/problems"} className="nav-item text-secondary">
               <li className="nav-link text-center">
                 <i className="fa-solid fa-bell position-relative"></i>
                 <p className="d-none d-md-block m-0">problems</p>
               </li>
             </Link>
-            <Link to={"/profile"} className="nav-item">
+            <Link to={"/profile"} className="nav-item text-secondary">
               <li className="nav-link text-center">
                 <i className="fa-solid fa-circle-user" />
                 <p className="d-none m-0 d-md-block">
